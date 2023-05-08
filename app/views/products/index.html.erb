@@ -5,9 +5,9 @@
 <div id="products">
   <% @products.each do |product| %>
     <%= render product %>
-    <p>
+    <table class="table">
       <%= link_to "Show this product", product %>
-    </p>
+    </table>
   <% end %>
 </div>
 
